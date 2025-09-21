@@ -1,0 +1,137 @@
+body {
+    background-color: #dbdfe0;
+
+
+}
+
+#add {
+    background-color: #dbdfe0;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+}
+
+
+
+#done {
+    border: none;
+    background-color: #dbdfe0;
+
+}
+
+#done:hover {
+    cursor: pointer;
+
+    transform: scale(1.1);
+
+}
+
+#Done {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #dbdfe0;
+    color: rgb(12, 12, 12);
+    font-size: 14px;
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    box-shadow: 0 4px 6px rgba(14, 13, 13, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+    margin-left: 9px;
+}
+
+#taskInput {
+    background-color: #dbdfe0;
+    justify-content: start;
+    padding-left: 30px;
+    border: none;
+    user-select: none;
+    color: #a5a7a8;
+}
+
+
+#addbtn {
+    display: flex;
+0000    align-items: center;
+}
+
+#addTaskBtn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #dbdfe0;
+    color: rgb(4, 4, 4);
+    font-size: 14px;
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(19, 18, 18, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#addTaskBtn:hover {
+    background-color: #87898a;
+    transform: scale(1.1);
+}
+
+#Done:hover {
+    background-color: #87898a;
+    transform: scale(1.1);
+}
+
+#taskList {
+    background-color: white;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    padding: none;
+}
+
+
+
+.line {
+    border: 0.2px solid rgb(94, 94, 94);
+    width: 100%;
+}
+
+.cansel {
+    background-color: white;
+    border: none;
+    opacity: 0.5;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.cansel:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+
+
+#taskInput {
+    color: black;
+}
+
+#date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
