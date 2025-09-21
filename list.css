@@ -1,3 +1,6 @@
+*{
+    margin:0;
+    padding:0;}
 body {
     background-color: #dbdfe0;
 
@@ -133,5 +136,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 
 }
